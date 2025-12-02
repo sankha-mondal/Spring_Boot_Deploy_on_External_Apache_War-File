@@ -21,8 +21,11 @@ public class SpringBootDeployExternalApacheWarApplication extends SpringBootServ
 	/*
 	 * Steps: 
 	 * 1. Add packaging, spring-boot-starter-tomcat - scope in pom.xml
-	 * 2. Download compilable Apache version.
-	 * 3. Generate build/war file: Run as -> maven build -> clean package
+	 * 2. Extend SpringBootServletInitializer & override SpringApplicationBuilder in main class
+	 * 3. Download compilable Apache version.
+	 * 4. Generate build/war file: Run as -> maven build -> clean package
+	 * 5. Paste war file in apache/webapp
+	 * 6. Run: startup.bat
 	 */
 
 }
