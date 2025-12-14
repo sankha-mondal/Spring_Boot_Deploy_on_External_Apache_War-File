@@ -4,4 +4,4 @@
  * 3. Generate build/war file: Run as -> maven build -> clean package -> Apply
  * 4. Download compilable Apache version.
  * 5. Paste war file in apache/webapp/
- * 6. Run: startup.bat
+ * 6. Run: startup.bat in cmd
