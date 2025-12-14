@@ -8,7 +8,7 @@
 		<version>3.4.12</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<packaging>war</packaging>
+	<packaging>war</packaging>    <!-- 1st: Adding - war -->
 	<groupId>com.example</groupId>
 	<artifactId>Spring_Boot_Deploy_External_Apache_WAR</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -47,6 +47,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- 2nd: Adding - dependency -->
 		<dependency>
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-starter-tomcat</artifactId>
@@ -55,6 +57,7 @@
 	</dependencies>
 
 	<build>
+		<!-- 23rd: Adding - war file name -->
 		<finalName>${artifactId}</finalName>
 		<plugins>
 			<plugin>
